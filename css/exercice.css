@@ -7,7 +7,12 @@
   align-items: center;
 }
 /*3. exercice-align-content-1 */
-
+.exercice-align-content-1 .container {
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  align-content: center;
+  height: 50px;
+}
 /*4. exercice-align-content-2 */
 
 /*5. exercice-align-content-3 */
