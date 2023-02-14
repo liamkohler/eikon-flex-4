@@ -49,3 +49,24 @@
   flex-grow: 1;
 }
 /*9. exercice-all-in */
+
+.exercice-all-in .container {
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  height: 50px;
+}
+
+.exercice-all-in .element-pink,
+.exercice-all-in .element-blue {
+  flex-grow: 1;
+}
+
+.exercice-all-in .element-yellow,
+.exercice-all-in .element-gray {
+  flex-grow: 2;
+}
+
+.exercice-all-in .element-red,
+.exercice-all-in .element-green {
+  flex-grow: 2;
+}
